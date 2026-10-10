@@ -1,0 +1,6 @@
+/status
+/tools
+/read examples/simple_demo.py
+/struct examples/simple_demo.py
+请解释 examples/simple_demo.py 的整体代码结构，包括每个函数的功能和 main() 函数的执行流程
+请为 examples/simple_demo.py 中的 multiply_numbers 函数、is_prime 函数生成详细的中文注释，并说明它们的算法思路和时间复杂度

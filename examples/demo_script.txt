@@ -1,0 +1,21 @@
+# CodeExplainerAgent 演示脚本
+# 每行一条命令或问题，以 # 开头的行为注释
+
+/status
+/tools
+你好，请介绍一下你自己，然后列出当前目录 examples 文件夹下的文件
+
+# 分析示例代码结构
+/struct examples/sample_code.py
+
+# 解释关键函数
+请解释 examples/sample_code.py 中 quick_sort 函数的实现原理、时间复杂度和空间复杂度，并说明 _partition 函数的作用
+
+# 解释类设计
+请分析 examples/sample_code.py 中 DataProcessor 类的设计，包括：
+1. 主要属性和方法
+2. process 方法的处理流程
+3. get_stats 方法返回的统计信息含义
+
+# 生成注释
+请为 examples/sample_code.py 中的 cached 装饰器和 fibonacci 函数添加详细的中文注释，说明装饰器模式的工作原理
